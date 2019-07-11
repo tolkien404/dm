@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 16,
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "php.executablePath": "C:/xampp/php/php.exe",
+    "composer.executablePath": "C:\\ProgramData\\ComposerSetup\\bin\\composer.bat",
+    "composer.workingPath": "C:\\Projects\\ProjectRoot\\ProjectSubFolder",
+}

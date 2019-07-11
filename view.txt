@@ -1,0 +1,13 @@
+CREATE VIEW v_detail_buku AS SELECT id_buku, judul, harga_pokok, qty, CAST(harga_pokok*qty as unsigned) "harga_modal",  harga_modal "mdl_buku", 
+harga "harga", ppn "pjk_buku", diskon, CAST(harga*(100/100+ppn/100)*(100/100-diskon/100) as unsigned) "hrg_akhir",
+CAST((harga*(100/100+ppn/100)*(100/100-diskon/100))-harga_modal as unsigned) "profit" FROM t_buku 
+ORDER BY profit DESC;
+
+
+CREATE VIEW v_detailbuku AS SELECT id_buku, judul, harga_modal "mdl_buku", 
+harga "harga", ppn "pjk_buku", diskon, CAST(harga*(100/100+ppn/100)*(100/100-diskon/100) as unsigned) "hrg_akhir",
+CAST((harga*(100/100+ppn/100)*(100/100-diskon/100))-harga_modal as unsigned) "profit" FROM t_buku 
+ORDER BY profit DESC;
+
+
+pokok X stok

@@ -44,27 +44,29 @@ if ($this->session->userdata('akses') == 'Admin') {
     <script src="<?php echo base_url('assets/global/vendor/slidepanel/jquery-slidePanel.js') ?>"></script>
 
     <!-- Scripts -->
-    <script src="<?php echo base_url('assets/global/js/Component.js') ?>"></script>
-    <script src="<?php echo base_url('assets/global/js/Plugin.js') ?>"></script>
-    <script src="<?php echo base_url('assets/global/js/Base.js') ?>"></script>
-    <script src="<?php echo base_url('assets/global/js/Config.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Component.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Plugin.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Base.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Config.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Config.js') ?>"></script>
 
-    <script src="<?php echo base_url('assets/js/Section/Menubar.js') ?>"></script>
-    <script src="<?php echo base_url('assets/js/Section/Sidebar.js') ?>"></script>
-    <script src="<?php echo base_url('assets/js/Section/PageAside.js') ?>"></script>
-    <script src="<?php echo base_url('assets/js/Section/GridMenu.js') ?>"></script>
-    <script src="<?php echo base_url('assets/js/Plugin/menu.js') ?>"></script>
 
-    <script src="<?php echo base_url('assets/global/js/config/colors.js') ?>"></script>
-    <script src="<?php echo base_url('assets/js/config/tour.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Section/Menubar.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Section/Sidebar.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Section/PageAside.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Section/GridMenu.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Plugin/menu.js') ?>"></script>
+
+    <script src="<?php echo base_url('assets/jsuser/config/colors.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/config/tour.js') ?>"></script>
 
     <script>Config.set('assets', '../assets');</script>
 
     <!-- Page -->
-    <script src="<?php echo base_url('assets/js/Site.js') ?>"></script>
-    <script src="<?php echo base_url('assets/global/js/Plugin/asscrollable.js') ?>"></script>
-    <script src="<?php echo base_url('assets/global/js/Plugin/slidepanel.js') ?>"></script>
-    <script src="<?php echo base_url('assets/global/js/Plugin/switchery.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Siteuser.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Plugin/asscrollable.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Plugin/slidepanel.js') ?>"></script>
+    <script src="<?php echo base_url('assets/jsuser/Plugin/switchery.js') ?>"></script>
     <script src="<?php echo base_url('assets/global/vendor/sweetalert/dist/sweetalert.min.js') ?>"></script>
     <script src="<?php echo base_url('assets/global/vendor/sweetalert/dist/sweetalert-dev.js') ?>"></script>
 

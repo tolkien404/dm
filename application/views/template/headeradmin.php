@@ -31,6 +31,7 @@
 
 
     <!-- Fonts -->
+    <link href="<?php echo base_url('assets/global/fonts/web-icons/web-icons.min.css') ?>" rel="stylesheet" type="text/css">
     <link href="<?php echo base_url('assets/global/fonts/font-awesome/font-awesome.css') ?>" rel="stylesheet" type="text/css">
     <link href="<?php echo base_url('assets/global/fonts/material-design/material-design.min.css') ?>" rel="stylesheet" type="text/css">
     <link href="<?php echo base_url('assets/global/fonts/brand-icons/brand-icons.min.css') ?>" rel="stylesheet" type="text/css">

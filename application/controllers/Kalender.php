@@ -8,6 +8,6 @@ class Kalender extends CI_Controller {
     }
 
     public function index() {
-        $this->load->view('user/v_kalender');
+        $this->load->view('v_kalender');
     }
 }
